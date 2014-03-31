@@ -76,6 +76,7 @@ div.vertical-line{
    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
+   margin-bottom: 3%;
    }
 .button:hover {
    opacity: 0.7;
@@ -107,7 +108,7 @@ div.vertical-line{
   background-color: #F8F8F8;
 }
 .projects{
-  height: 70vh;
+  height: 75vh;
   width: 100%;
 }
 
@@ -123,7 +124,7 @@ div.vertical-line{
 }
 .iphone{
   height: 60vh;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .projectwords{
