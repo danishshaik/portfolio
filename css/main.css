@@ -1,0 +1,250 @@
+.main_name {
+	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: white;
+}
+.vert_center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.name_desc {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	padding: 1vh;
+}
+
+.bg {
+	height: 85vh;
+	 background: url(../img/splashback.jpg) no-repeat center bottom; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.button {
+	width: 180px;
+	height: 55px;
+	border: 1px solid #FFFFFF;
+	background:transparent;
+	padding: 10px 30px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: #F6F8F7;
+	font-size: 15px;
+	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-bottom: 3%;
+}
+
+.button:hover {
+	opacity: 0.7;
+	color: #ffffff;
+	background: #6ED9A0;
+	border: none;
+}
+.button_splash {
+	padding: 5vh;ß
+}
+
+:focus {outline:none;} ::-moz-focus-inner {border:0;}
+
+.desc_section {
+	height: 70vh;
+}
+
+.desc_word_box {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	color: #7f8c8d;
+	width: 69vw;
+	padding: 5vh;
+	line-height: 175%;
+}
+
+.desc_new_line {
+	padding: 4vh;
+}
+
+.about_header {
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	padding-bottom: 6vh;
+	color: black;
+}
+
+.about_header_img {
+	width: 2vw;
+	padding-bottom: 2vh;
+}
+
+.social_row {
+	width: 12vw;
+}
+
+.social_icon {
+	width: 2.5vw;
+}
+
+.project_container {
+	height: 80vh;
+	width: 90vw;
+}
+.project {
+	width: 80vw;
+}
+
+.iphoneimg {
+	height: 80%;
+	margin-top: 7vh;
+}
+
+.project_head {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+	font-weight: 400;
+	padding-top: 15vh;
+	text-align: left;
+}
+
+.project_desc {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	padding-top: 5vh;
+	text-align: left;
+	color: white;
+}
+
+.popup_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+	color: black;
+	width: 85%;
+}
+
+.popup_title {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	padding: 5vh;
+	text-align: center;
+	color: black;
+	width: 85%;
+
+}
+
+.project-preview {
+	overflow: auto;
+	height: 250px;
+	width:350px;
+	background: url(../img/bash.jpg) no-repeat center center; 
+	background-size: cover;
+}
+
+.highlight {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: calc(100% - 30px);
+	height: 100%;
+	background: #FB4747;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+
+	color:white;
+	font-size: 30px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	opacity: 0;
+    background-color: black;
+}
+
+.highlight:hover {
+	top: 5%;
+	left: calc(5% + 15px);
+	width: calc(90% - 30px);
+	height: 90%;
+	opacity: 0.8;
+   /* opacity: 0.4;
+    filter: alpha(opacity=30);
+    background-color: black;*/
+}
+
+.project-cont {
+}
+
+.hover-text {
+	padding-top: 27%;
+	text-align: center;
+}
+
+.project_header {
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.quote-section {
+	height: 60vh;
+	background-color: #ecf0f1;
+	width: 100vw;
+	margin-top: 15vh;
+}
+
+.quote-text {
+	width: 60vw;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	color: #5E6E77;
+}
+
+.quote-author {
+	width: 60vw;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #5E6E77;
+}
+
+.footer-bar {
+	height: 20vh;
+	background-color: #3A4E57;
+}
+
+.small-row {
+	height: 100%;
+	width: 25vw;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.vertical-line{
+  width: 1px; /* Line width */
+  background-color: #2F444D; /* Line color */
+  height: 40%; /* Override in-line if you want specific height. */
+}

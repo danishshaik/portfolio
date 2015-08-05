@@ -1,0 +1,155 @@
+html,body{
+	width:100%;
+	height: 100%;
+	background-color: white;
+}
+
+.splash
+{
+	background: url('http://www.yohyoh.com/blueimp/server/php/files/e7a44eb80b36ce4e0dbd71031e30ce7f.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+	width: 100%;
+	height:100vh;
+}
+
+.smallfont{
+  margin-top: 1%;
+}
+.fat
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15em;
+  color: rgb(51, 51, 51);
+  margin-top: 10px;
+}
+
+.thin
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #a3a3a8;
+}
+.logo{
+	width: 300px;
+	margin-top:15%;
+	/*margin-left:30%;*/
+}
+
+.splashrow{
+	margin-top: 10%;
+}
+
+.button {
+	 width: 180px;
+   height: 55px;
+   border: 1px solid #FFFFFF;
+   background:transparent;
+   padding: 10px 30px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   color: #F6F8F7;
+   font-size: 15px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-bottom: 3%;
+   }
+.button:hover {
+   opacity: 0.7;
+   color: #ffffff;
+   background: #6ED9A0;
+   border: none;
+   }
+.about{
+  height: 45vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: #7E7D7D;
+  background-color: #F8F8F8;
+}
+
+.aboutheader{
+   margin-top: 4%;
+}
+
+.aboutwords{
+  padding-top: 2%;
+  padding-bottom: 7%;
+  font-weight: 400;
+  font-size: 17px;
+  color: #9D9D9D;
+  background-color: #F8F8F8;
+}
+.projects{
+  height: 75vh;
+  width: 100%;
+}
+
+.imaze{
+  background-color: #293949;
+}
+
+.projectheader{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: #FFFFFF;
+}
+.iphone{
+  height: 60vh;
+  margin-top: 15vh;
+}
+
+.projectwords{
+  margin-top: 20vh;
+}
+
+.projecttext{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  font-weight: 400;
+  font-size: 20px;
+  color:#91979D;
+  padding-right: 10%;
+}
+.projecttext2{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  font-weight: 400;
+  font-size: 20px;
+  color:#91979D;
+  padding-left: 10%;
+}
+.projectheader2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: #FFFFFF;
+  padding-left: 10%;
+}
+
+.waffle{
+  background-color: #3E4A4C;
+}
+.resonate{
+  background-color: #FF6D6D;
+}
+
+.projecttextresonate{
+
+  padding-top: 2%;
+  padding-bottom: 4%;
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 10%;
+  color:#DDDDDD;
+}

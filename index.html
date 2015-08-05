@@ -1,124 +1,290 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Danish Shaik</title>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+<html>
+	<head>
+		<!--CSS additions from bootstrap and custom -->
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.typer.js"></script>
-  </head>
-  <body>
-    <div class="container-fluid splash">
-  		<div class="row splashrow">
-  			<center><div class="col-sm-12">
-  				<p class="fat" data-typer-targets="Danish.,Shaik.,Leader.,Entrepreneur.,Student.,Developer.,Hacker.,Designer.,Enthusiast., Innovative., Bold.,"></p>
-  			</div></center>
-  		</div>
-	 </div>
-   <div class="container-fluid about">
-      <div class="row">
-        <div class="col-sm-12">
-          <center><p class="aboutheader">ABOUT</p></center>
-        </div>
-      </div>
-      <div class="row aboutwords">
-        <div class="col-sm-12">
-          <center>
-            <p>My name is Danish Shaik and I am a 16 year old freelance web developer based in Cupertino California.</p>
-          </center>
-          <center>
-            <p>I love to work on innovative, revolutionary, game changing web applications with interesting people.
-</p>
-          </center>
-          <center>
-            <p> So if you're working on a cool project, or just want to chat, don’t hesitate to <a href="mailto:me@dshaik.com">reach out.</a></p>
-          </center>
-        </div>
-      </div>
-   </div>
-   <div class="container-fluid projects imaze">
-      <div class="row">
-        <div class="col-sm-5">
-          <center><img class="iphone" src="img/iphoneimaze.png"></img></center>
-        </div>
-        <div class="col-sm-7 projectwords">
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="projectheader">IMAZE</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="projecttext">iMaze is a photo based maze game that turns any image that the user uploads into a functional maze. Once the maze is created, you can either make your way through it yourself or challenge your friend over the web in a real-time race. Since the mazes are created with the user uploaded image, it can provide for quite a nostalgic game with you and an old pal. Check this out on <a href="http://techcrunch.com/2013/04/08/imaze-lets-you-turn-your-photos-into-a-maze-and-race-your-friends-to-the-finish/">TechCrunch</a></p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <button type="button" onclick="window.location.href='http://attosoft.com/imaze/'" class="button" style="float:right;margin-right:12%;">View Full</button>
-            </div>
-          </div>
-        </div>
-      </div>
-   </div>
-   <div class="container-fluid projects waffle">
-    <div class="col-sm-7 projectwords">
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="projectheader2">Brim</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="projecttext2">Brim is an iOS mobile application, which utilizes Bluetooth Low Energy in order to notify you when you are on the brink of losing your friends. Brim sends a push notification when your friends move out of range, as well showing you a realtime map displaying your friends’ location.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <button type="button" onclick="window.location.href='http://danishshaik.github.io/brimsite/'" class="button" style="float:right;margin-right:12%;">View Full</button>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-5">
-          <center><img class="iphone" src="img/iphonebrim.png"></img></center>
-        </div>
-      </div>
-   </div>
-   <div class="container-fluid projects resonate">
-      <div class="row">
-        <div class="col-sm-5">
-          <center><img class="iphone" src="img/iphonespark.png"></img></center>
-        </div>
-        <div class="col-sm-7 projectwords">
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="projectheader">SPARK</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="projecttextresonate">Spark is a roommate discovery app that suggest potential roommates. Based on similarities between users, the app allows the user to anonymously like or pass them. If two users like each other then it results in a "match" and Spark introduces the two users by opening a chat.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <button type="button" class="button" style="float:right;margin-right:12%;">Coming Soon</button>
-            </div>
-          </div>
-        </div>
-      </div>
-   </div>
-  </body>
-  <script>
-    $(function () {
-      $('[data-typer-targets]').typer();
-    });
-  </script>
+		<link rel = "stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><link>
+		<link rel = "stylesheet" type="text/css" href="css/main.css"></link>
+		<link rel = "stylesheet" type="text/css" href="css/avgrund.css"></link>
+
+		<!-- fonts -->
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+
+		<!-- Meta tags from bootstrap -->
+
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<!--tittleand custom head tags -->
+
+		<title>Danish Shaik</title>
+
+	</head>
+	<body>
+		<div class = "bg">
+			<div class = "vert_center">
+				<center class = "main_name hidden-xs-*">
+					danish shaik
+				</center>
+				<center class = "name_desc">
+					enthusiast. engineer. entreprenuer.
+				</center>
+				<center class = "button_splash">
+					<a href="mailto:me@dshaik.com"><button type="button" class="button">
+						HMU
+					</button></a>
+				</center>
+			</div>
+		</div>
+		<div class = "desc_section">
+			<center>
+				<div class = "desc_word_box">
+					<center class = "about_header">
+						A little bit about me..
+					</center>
+					<p>
+						I've never been good at finding out exactly what it is I want to do with my life. My career ambitions have included NBA star, audio engineeer, touring musician, interior designer, stock broker (it was a weird time in my life), and actor. I somehow quelled my desire to pursue arts and chose to instead sit for hours in businees school learning how to solve some word problem about how Susie's parents are trying to save for her college fund. After a short stint in the business world. I'm now back to my happy place designing functional and intuitive user interfaces and forever sweating the details. 
+					</p>
+					<p class = "desc_new_line">Feel free to check out my work or connect below.</p>
+					<center>
+						<div class = "container social_row">
+							<div class = "row">
+								<div class = "col-xs-4">
+									<a href="https://www.facebook.com/DanishShak97">
+										<img class ="social_icon" src = "img/facebook.png"/>
+									</a>
+								</div>
+								<div class = "col-xs-4">
+									<a href="https://www.linkedin.com/in/danishshaik">
+										<img class ="social_icon" src = "img/linkedin.png"/>
+									</a>
+								</div>
+								<div class = "col-xs-4">
+									<a href="https://www.twitter.com/danshaik">
+										<img class ="social_icon" src = "img/twitter.png"/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</center>
+				</div>
+			</center>
+		</div>
+		<hr>
+		<div class = "container-fluid project">
+			<div class = "row">
+				<div class = "col-xs-12">
+					<p class = "project_header"> Just some stuff that I've been working on...</p>
+				</div>
+			</div>
+			<center>
+				<div class = "row" style = "margin-top: 3vh;">
+					<div class = "col-md-4  project-cont">
+						<div class = "project-preview">
+						</div>
+						<div class = "highlight-bash highlight">
+							<p class="hover-text">Bash</p>
+						</div>
+					</div>
+					<div class = "col-md-4 project-cont">
+						<div class = "project-preview" style="background-image: url('img/plink.jpg');">
+							<div class = "highlight-pallete highlight">
+								<p class="hover-text">Pallete</p>
+							</div>
+						</div>
+					</div>
+					<div class = "col-md-4 project-cont">
+						<div class = "project-preview" style="background-image: url('img/flair.jpg');">
+							<div class = "highlight-flair highlight">
+								<p class="hover-text">Flair</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</center>
+			<!-- <center>
+				<div class = "row project_container">
+					<div class = "col-md-4">
+						<img class = "iphoneimg" src="img/bashfeed.png"/>
+					</div>
+					<div class = "col-md-6 col-md-offset-2">
+						<h1 class = "project_head">
+							Bash
+						</h1>
+						<h5 class = "project_desc">
+							Bash helps friends arrange activites with each other. Unlike Facebook events, group SMS, and email threads, Bash allows everybody to stay synchronized on event details. Friends who are invited receieve push notifications, and events are grouped into a feed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tristique augue. Phasellus quis dolor ut ex rhoncus dapibus eu vel turpis. Donec eget finibus velit. Sed accumsan scelerisque massa, consequat sodales dui semper eget.
+						</h3>
+					</div>
+				</div>
+			</center> -->
+		</div>
+		<div class = "quote-section">
+			<div class ="vert_center">
+				<center><img width = "65px" style = "margin-bottom: 3vh;" src="img/apple.png"></center>
+				<center><p class = "quote-text">"the people who are crazy enough to think they can change the world are the ones who do."</p></center>
+				<center><p class="quote-author">- Steve Jobs</p></center>
+			</div>
+		</div>
+		<div style="margin-top: 7vh; margin-bottom: 15vh;" class = "container-fluid project">
+			<div class = "row">
+				<div class = "col-xs-12">
+					<p class = "project_header"> Some more things that I've built...</p>
+				</div>
+			</div>
+			<center>
+				<div class = "row" style = "margin-top: 3vh;">
+					<div class = "col-md-4  project-cont">
+						<div class = "project-preview" style="background-image: url('img/readingrainbow.jpg');">
+						</div>
+						<div class = "highlight reading">
+							<p class="hover-text">Reading Rainbow</p>
+						</div>
+					</div>
+					<div class = "col-md-4 project-cont">
+						<div class = "project-preview" style="background-image: url('img/brim.jpg');">
+							<div class = "highlight brim">
+								<p class="hover-text">Brim</p>
+							</div>
+						</div>
+					</div>
+					<div class = "col-md-4 project-cont">
+						<div class = "project-preview" style="background-image: url('img/imaze.jpg');">
+							<div class = "highlight imaze">
+								<p class="hover-text">iMaze</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</center>
+		</div>
+		<div class= "container-fluid footer-bar">
+				<div class = "row small-row ">
+					<div class = "col-md-2 vert_center"><img height="25%"src="img/shake.png"></div>
+					<div class = "col-md-2 vert_center"><center><div class="vertical-line" /></center></div>
+					<div class = "col-md-2 vert_center">
+						<a href="https://www.twitter.com/danshaik"><img height="20%"src="img/twitter.png"></a>
+					</div>
+					<div class = "col-md-2 vert_center">
+						<a href="https://www.instagram.com/shaikmyhead"><img height="20%"src="img/instagram.png"></a>
+					</div>
+					<div class = "col-md-2 vert_center">
+						<a href="https://www.facebook.com/DanishShak97"><img height="20%"src="img/facebook.png"></a>
+						</div>
+					<div class = "col-md-2 vert_center">
+						<a href="https://www.linkeidn.com/in/danishshaik"><img height="20%"src="img/linkedin.png"></a>
+						</div>
+				</div>
+		</div>
+		<!-- <hr style = "margin-top: 5vh;"> -->
+	</body>
+	<footer>
+		<script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/jquery.avgrund.min.js"></script>
+		<script>
+			$(function() {
+				$('.highlight-bash').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>Bash </b>Inc.</h1><div class="popup_text">Bash helps friends arrange activites with each other. Unlike Facebook events, group SMS, and email threads, Bash allows everybody to stay synchronized on event details. Friends who are invited receieve push notifications, and events are grouped into a feed. <b><a href="https://getbash.com/">Check it Out!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+			$(function() {
+				$('.highlight-pallete').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>Pallete </b>(Greylock Hackfest).</h1><div class="popup_text">Pallete lets friends share app states with each other. If you&#39re watching a funny youtube video and you want to share that exact moment with a friend, take a screenshot, and share it instantly. Pallete uses image analysis algorithms to tell what app you&#39re in, what you are doign in that app, and creates a deeplink for you to share. <b><a href="https://github.com/zuhaz3/AppStates">Check out source!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+			$(function() {
+				$('.highlight-flair').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>Flair </b>(Outside Hacks).</h1><div class="popup_text">At festivals like Outside Lands, you are almost always at a shortage of everything. A shortage of food, a shortage of energy, and always a shortage of charge, but the one thing that you do have an abundance of is sunlight. Flair is a solar, wearable charger, it attaches to your hat, and you can charge your phone with energy from the sun all day. <b><a href="https://www.youtube.com/watch?v=0qT3RgNnPic">Check out the video!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+			$(function() {
+				$('.reading').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>Reading Rainbow </b>(HSHacks).</h1><div class="popup_text">A native Mac application, which allows students to stream textbooks, and novels for free instantly. Reading Rainbow streams torrent files from kickass.so in order to allow students to access course material without paying money. Reading Rainbow is the equivalent of Popcorn-Time for books. <b><a href="http://kvedula.github.io/ReadingRainbow/">Check it out!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+			$(function() {
+				$('.brim').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>Brim </b>(Outside Hacks 14).</h1><div class="popup_text">Brim is an iOS mobile application, which utilizes Bluetooth Low Energy in order to notify you when you are on the brink of losing your friends. Brim sends a push notification when your friends move out of range, as well showing you a realtime map displaying your friends’ location. <b><a href="http://danishshaik.github.io/brimsite/">Check it out!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+			$(function() {
+				$('.imaze').avgrund({
+					width: 600, // max is 640px
+					height: 350, // max is 350px
+					showClose: true, // switch to 'true' for enabling close button
+					showCloseText: 'exit', // type your text for close button
+					closeByEscape: true, // enables closing popup by 'Esc'..
+					closeByDocument: true, // ..and by clicking document itself
+					holderClass: 'yolo', // lets you name custom class for popin holder..
+					overlayClass: 'yolo', // ..and overlay block
+					enableStackAnimation: false, // another animation type
+					onBlurContainer: '.body', // enables blur filter for specified block
+					openOnEvent: true, // set to 'false' to init on load
+					setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+					template: '<center><h1 class="popup_title"><b>iMaze </b>(Photo Hack Day 4).</h1><div class="popup_text">iMaze is a photo based maze game that turns any image that the user uploads into a functional maze. Once the maze is created, you can either make your way through it yourself or challenge your friend over the web in a real-time race. Since the mazes are created with the user uploaded image, it can provide for quite a nostalgic game with you and an old pal. Check this out on <a href="http://on.tcrn.ch/l/0Ktg">TechCrunch</a> or <b><a href="www.attosoft.com/imaze">play the game!</a></b></div></center>' // or function (elem) { }, or $('.content')
+				});
+			});
+		</script>
+	</footer>
 </html>
