@@ -6,7 +6,7 @@
 }
 .vert_center {
 	position: relative;
-	top: 50%;
+	top: 49%;
 	transform: translateY(-50%);
 }
 .name_desc {
@@ -44,9 +44,9 @@
 }
 
 .button:hover {
-	opacity: 0.7;
-	color: #ffffff;
-	background: #6ED9A0;
+	opacity: 0.8;
+	color: #5758BB;
+	background: white;
 	border: none;
 }
 .button_splash {
@@ -110,7 +110,7 @@
 
 .project_head {
 	color: white;
-	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 35px;
 	font-weight: 400;
 	padding-top: 15vh;
@@ -203,6 +203,7 @@
 	font-weight: 200;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
+	color: #5758BB;
 }
 
 .quote-section {
@@ -220,7 +221,7 @@
 	font-weight: 100;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	color: #5E6E77;
+	color: #5758BB;
 }
 
 .quote-author {
@@ -229,7 +230,7 @@
 	text-align: center;
 	font-family: 'PT Serif', serif;
 	font-weight: 100;
-	color: #5E6E77;
+	color: #5758BB;
 }
 
 .footer-bar {
