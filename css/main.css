@@ -1,6 +1,6 @@
 .main_name {
 	font-size: 70px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-weight: 100;
 	color: white;
 }
@@ -74,12 +74,12 @@
 }
 
 .about_header {
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 200;
-	padding-bottom: 6vh;
-	color: black;
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	padding-bottom: 4vh;
+	color: #5758BB;
 }
 
 .about_header_img {
@@ -110,7 +110,7 @@
 
 .project_head {
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-size: 35px;
 	font-weight: 400;
 	padding-top: 15vh;
@@ -137,7 +137,7 @@
 
 .popup_title {
 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-size: 30px;
 	font-weight: 100;
 	padding: 5vh;
@@ -199,7 +199,7 @@
 .project_header {
 	font-size: 35px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-weight: 200;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
@@ -216,7 +216,7 @@
 	width: 60vw;
 	font-size: 40px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-weight: 100;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
@@ -227,7 +227,7 @@
 	width: 60vw;
 	font-size: 20px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Serif', serif;
 	font-weight: 100;
 	color: #5E6E77;
 }
