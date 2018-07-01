@@ -45,7 +45,7 @@
 
 .button:hover {
 	opacity: 0.8;
-	color: #5758BB;
+	color: #57606f;
 	background: white;
 	border: none;
 }
@@ -79,7 +79,7 @@
 	font-family: 'PT Serif', serif;
 	font-weight: 400;
 	padding-bottom: 4vh;
-	color: #5758BB;
+	color: #57606f;
 }
 
 .about_header_img {
@@ -203,7 +203,7 @@
 	font-weight: 200;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	color: #5758BB;
+	color: #57606f;
 }
 
 .quote-section {
@@ -221,7 +221,7 @@
 	font-weight: 100;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	color: #5758BB;
+	color: #57606f;
 }
 
 .quote-author {
@@ -230,7 +230,7 @@
 	text-align: center;
 	font-family: 'PT Serif', serif;
 	font-weight: 100;
-	color: #5758BB;
+	color: #57606f;
 }
 
 .footer-bar {
